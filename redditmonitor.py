@@ -10,7 +10,7 @@ data = {'grant_type': 'password','username': "teddy5760", "password": "-"}
 reddit = praw.Reddit(
     client_id=APP_ID,
     client_secret=APP_SECRET,
-    password="metodi2003",
+    password="-",
     user_agent="SubMonitor by u/teddy5760",
     username="teddy5760"
 )
